@@ -4,6 +4,7 @@
   "description": "an Express REST API to test a2 setup",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "test"
   },
   "keywords": [
@@ -14,5 +15,8 @@
     "api"
   ],
   "author": "Jan Moriaux",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
